@@ -1,5 +1,10 @@
 # AI_Accelarator: PCPI ML Activations (Vivado Simulation)
 
+### Built as part of the HackRush'26 Computer Architecture track, see the problem statement PDF for details.
+
+### Refer report for a detailed explanation of our activation function approximations (we just used piecewise linear functions) and how we integrated the ML logic module with the RISC-V core using PCPI.
+
+
 This repository focuses on Vivado simulation of the `pcpi_ml_activations` coprocessor.
 
 The PicoRV32 core is already present in `picorv32.v`. The coprocessor in `pcpi_ml_activations.v` uses the standard PicoRV32 PCPI handshake (`pcpi_valid`, `pcpi_insn`, `pcpi_rs1`, `pcpi_rs2`, `pcpi_wait`, `pcpi_ready`, `pcpi_wr`, `pcpi_rd`).
@@ -43,4 +48,3 @@ Optional files:
 - Tanh approximation
 
 
-### Refer to the report for a detailed explanation of our activation function approximations (we just used piecewise linear functions) and how we integrated the ML logic module with the RISC-V core using PCPI.
