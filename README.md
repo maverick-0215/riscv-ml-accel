@@ -42,3 +42,5 @@ Optional files:
 - Sigmoid approximation
 - Tanh approximation
 
+
+### Refer to the report for a detailed explanation of our activation function approximations (we just used piecewise linear functions) and how we integrated the ML logic module with the RISC-V core using PCPI.
